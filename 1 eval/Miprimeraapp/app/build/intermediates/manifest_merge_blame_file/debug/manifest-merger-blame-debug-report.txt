@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.miprimeraapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:5:5-36:15
+12        android:allowBackup="true"
+12-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\gabri\.gradle\caches\transforms-3\4f186a80ab597ea7aa722d39464f8dbb\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.MiPrimeraApp" >
+22-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:13:9-50
+23        <activity
+23-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:15:9-22:15
+24            android:name="com.example.miprimeraapp.DisplayMessageActivity"
+24-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:16:13-51
+25            android:parentActivityName="com.example.miprimeraapp.MainActivity" >
+25-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:17:13-55
+26
+27            <!-- Se cambio la linea de arriba, el contenido de este meta tambien -->
+28            <meta-data
+28-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:19:13-21:48
+29                android:name="android.support.PARENT_ACTIVITY"
+29-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:20:17-63
+30                android:value=".MainActivity" />
+30-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:21:17-46
+31        </activity>
+32        <activity
+32-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:23:4-35:15
+33            android:name="com.example.miprimeraapp.MainActivity"
+33-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:24:8-36
+34            android:exported="true" >
+34-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:25:8-31
+35            <intent-filter>
+35-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:26:8-30:24
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:27:12-64
+36-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:27:20-61
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:29:12-72
+38-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:29:22-69
+39            </intent-filter>
+40
+41            <meta-data
+41-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:32:8-34:31
+42                android:name="android.app.lib_name"
+42-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:33:12-47
+43                android:value="" />
+43-->C:\Users\gabri\AndroidStudioProjects\Miprimeraapp\app\src\main\AndroidManifest.xml:34:12-28
+44        </activity>
+45    </application>
+46
+47</manifest>

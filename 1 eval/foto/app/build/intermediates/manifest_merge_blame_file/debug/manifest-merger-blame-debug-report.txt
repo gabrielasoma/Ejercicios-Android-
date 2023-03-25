@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.miprimeraapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:5:5-48:19
+12        android:allowBackup="true"
+12-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] C:\Users\gabri\.gradle\caches\transforms-3\4f186a80ab597ea7aa722d39464f8dbb\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.MiPrimeraApp" >
+22-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:13:9-50
+23        <activity
+23-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:16:9-24:20
+24            android:name="com.example.miprimeraapp.MainActivity2"
+24-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:18:13-42
+25            android:exported="false"
+25-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:20:13-37
+26            android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:17:13-58
+27            android:label="Mi primera actividad" >
+27-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:19:13-49
+28            <meta-data
+28-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:21:13-23:36
+29                android:name="android.app.lib_name"
+29-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:22:17-52
+30                android:value="" />
+30-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:23:17-33
+31        </activity>
+32        <activity
+32-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:26:9-34:20
+33            android:name="com.example.miprimeraapp.DisplayMessageActivity"
+33-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:27:13-51
+34            android:parentActivityName="com.example.miprimeraapp.MainActivity" >
+34-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:28:13-55
+35
+36            <!-- Se cambio la linea de arriba, el contenido de este meta tambien -->
+37            <meta-data
+37-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:31:13-33:49
+38                android:name="android.support.PARENT_ACTIVITY"
+38-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:32:17-63
+39                android:value=".MainActivity" />
+39-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:33:17-46
+40        </activity>
+41        <activity
+41-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:35:9-47:20
+42            android:name="com.example.miprimeraapp.MainActivity"
+42-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:36:13-41
+43            android:exported="true" >
+43-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:37:13-36
+44            <intent-filter>
+44-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:38:13-42:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:39:17-69
+45-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:39:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:41:17-77
+47-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:41:27-74
+48            </intent-filter>
+49
+50            <meta-data
+50-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:21:13-23:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:22:17-52
+52                android:value="" />
+52-->C:\Users\gabri\AndroidStudioProjects\foto\app\src\main\AndroidManifest.xml:23:17-33
+53        </activity>
+54    </application>
+55
+56</manifest>

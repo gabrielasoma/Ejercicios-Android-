@@ -1,0 +1,317 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:5:5-154:19
+12        android:allowBackup="true"
+12-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\gabri\.gradle\caches\transforms-3\28a1708219c3158e49b329d141e5cfff\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Todo" >
+22-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:13:9-42
+23        <activity
+23-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:15:9-21:20
+24            android:name="com.example.todo.Factura2"
+24-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:16:13-37
+25            android:exported="false" >
+25-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:17:13-37
+26            <meta-data
+26-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+27                android:name="android.app.lib_name"
+27-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+28                android:value="" />
+28-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+29        </activity>
+30        <activity
+30-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:22:9-28:20
+31            android:name="com.example.todo.Factura"
+31-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:23:13-36
+32            android:exported="false" >
+32-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:24:13-37
+33            <meta-data
+33-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+34                android:name="android.app.lib_name"
+34-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+35                android:value="" />
+35-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+36        </activity>
+37        <activity
+37-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:29:9-35:20
+38            android:name="com.example.todo.iniciar"
+38-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:30:13-36
+39            android:exported="false" >
+39-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:31:13-37
+40            <meta-data
+40-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+41                android:name="android.app.lib_name"
+41-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+42                android:value="" />
+42-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:36:9-42:20
+45            android:name="com.example.todo.intentoCriba"
+45-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:37:13-41
+46            android:exported="false" >
+46-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:38:13-37
+47            <meta-data
+47-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+48                android:name="android.app.lib_name"
+48-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+49                android:value="" />
+49-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+50        </activity>
+51        <activity
+51-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:43:9-49:20
+52            android:name="com.example.todo.listas"
+52-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:44:13-35
+53            android:exported="false" >
+53-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:45:13-37
+54            <meta-data
+54-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+57        </activity>
+58        <activity
+58-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:50:9-56:20
+59            android:name="com.example.todo.cripta"
+59-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:51:13-35
+60            android:exported="false" >
+60-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:52:13-37
+61            <meta-data
+61-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+62                android:name="android.app.lib_name"
+62-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+63                android:value="" />
+63-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+64        </activity>
+65        <activity
+65-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:57:9-63:20
+66            android:name="com.example.todo.option"
+66-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:58:13-35
+67            android:exported="false" >
+67-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:59:13-37
+68            <meta-data
+68-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+69                android:name="android.app.lib_name"
+69-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+70                android:value="" />
+70-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+71        </activity>
+72        <activity
+72-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:64:9-70:20
+73            android:name="com.example.todo.spinner1"
+73-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:65:13-37
+74            android:exported="false" >
+74-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:66:13-37
+75            <meta-data
+75-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+76                android:name="android.app.lib_name"
+76-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+77                android:value="" />
+77-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+78        </activity>
+79        <activity
+79-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:71:9-77:20
+80            android:name="com.example.todo.check"
+80-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:72:13-34
+81            android:exported="false" >
+81-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:73:13-37
+82            <meta-data
+82-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+83                android:name="android.app.lib_name"
+83-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+84                android:value="" />
+84-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+85        </activity>
+86        <activity
+86-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:78:9-84:20
+87            android:name="com.example.todo.radio"
+87-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:79:13-34
+88            android:exported="false" >
+88-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:80:13-37
+89            <meta-data
+89-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+90                android:name="android.app.lib_name"
+90-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+91                android:value="" />
+91-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+92        </activity>
+93        <activity
+93-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:85:9-91:20
+94            android:name="com.example.todo.alumno"
+94-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:86:13-35
+95            android:exported="false" >
+95-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:87:13-37
+96            <meta-data
+96-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+97                android:name="android.app.lib_name"
+97-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+98                android:value="" />
+98-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+99        </activity>
+100        <activity
+100-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:92:9-98:20
+101            android:name="com.example.todo.calculadora2"
+101-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:93:13-41
+102            android:exported="false" >
+102-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:94:13-37
+103            <meta-data
+103-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+104                android:name="android.app.lib_name"
+104-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+105                android:value="" />
+105-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+106        </activity>
+107        <activity
+107-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:99:9-105:20
+108            android:name="com.example.todo.parametros1"
+108-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:100:13-40
+109            android:exported="false" >
+109-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:101:13-37
+110            <meta-data
+110-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+111                android:name="android.app.lib_name"
+111-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+112                android:value="" />
+112-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+113        </activity>
+114        <activity
+114-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:106:9-112:20
+115            android:name="com.example.todo.parametros"
+115-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:107:13-39
+116            android:exported="false" >
+116-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:108:13-37
+117            <meta-data
+117-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+118                android:name="android.app.lib_name"
+118-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+119                android:value="" />
+119-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+120        </activity>
+121        <activity
+121-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:113:9-119:20
+122            android:name="com.example.todo.spinner"
+122-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:114:13-36
+123            android:exported="false" >
+123-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:115:13-37
+124            <meta-data
+124-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+125                android:name="android.app.lib_name"
+125-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+126                android:value="" />
+126-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+127        </activity>
+128        <activity
+128-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:120:9-126:20
+129            android:name="com.example.todo.calculadora"
+129-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:121:13-40
+130            android:exported="false" >
+130-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:122:13-37
+131            <meta-data
+131-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+132                android:name="android.app.lib_name"
+132-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+133                android:value="" />
+133-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+134        </activity>
+135        <activity
+135-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:127:9-133:20
+136            android:name="com.example.todo.atras1"
+136-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:128:13-35
+137            android:exported="false" >
+137-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:129:13-37
+138            <meta-data
+138-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+139                android:name="android.app.lib_name"
+139-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+140                android:value="" />
+140-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+141        </activity>
+142        <activity
+142-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:134:9-140:20
+143            android:name="com.example.todo.siguiente1"
+143-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:135:13-39
+144            android:exported="false" >
+144-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:136:13-37
+145            <meta-data
+145-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+146                android:name="android.app.lib_name"
+146-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+147                android:value="" />
+147-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+148        </activity>
+149        <activity
+149-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:141:9-153:20
+150            android:name="com.example.todo.MainActivity"
+150-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:142:13-41
+151            android:exported="true" >
+151-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:143:13-36
+152            <intent-filter>
+152-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:144:13-148:29
+153                <action android:name="android.intent.action.MAIN" />
+153-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:145:17-69
+153-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:145:25-66
+154
+155                <category android:name="android.intent.category.LAUNCHER" />
+155-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:147:17-77
+155-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:147:27-74
+156            </intent-filter>
+157
+158            <meta-data
+158-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:18:13-20:36
+159                android:name="android.app.lib_name"
+159-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:19:17-52
+160                android:value="" />
+160-->C:\Users\gabri\AndroidStudioProjects\todo\app\src\main\AndroidManifest.xml:20:17-33
+161        </activity>
+162
+163        <provider
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gabri\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+164            android:name="androidx.startup.InitializationProvider"
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gabri\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+165            android:authorities="com.example.todo.androidx-startup"
+165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gabri\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+166            android:exported="false" >
+166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gabri\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+167            <meta-data
+167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gabri\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+168                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gabri\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+169                android:value="androidx.startup" />
+169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gabri\.gradle\caches\transforms-3\ec6e2ba61c9a42dd8e0aa44ee71f9dfb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+170            <meta-data
+170-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gabri\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+171                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+171-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gabri\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+172                android:value="androidx.startup" />
+172-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\gabri\.gradle\caches\transforms-3\371d4428813d11175307b9e72a350208\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+173        </provider>
+174    </application>
+175
+176</manifest>
