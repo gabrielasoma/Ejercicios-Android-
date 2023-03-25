@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">gridFacil</string>
+    <string-array name="lista">
+        <item>Peru</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Ecuador</item>
+        <item>Argentina</item>
+    </string-array>
+    <string-array name="ciudades">
+        <item>Peru</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Ecuador</item>
+        <item>Argentina</item>
+    </string-array>
+</resources>

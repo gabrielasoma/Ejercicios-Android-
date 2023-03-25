@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stwitch">
+
+    <Switch
+        android:id="@+id/swModo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="78dp"
+        android:onClick="Modo"
+        android:text="Desactivado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvModo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/swModo"
+        android:layout_alignEnd="@+id/swModo"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="61dp"
+        android:text="Desactivado"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swModo" />
+
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="52dp"
+        android:onClick="Atras"
+        android:text="atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="16dp"
+        android:width="100dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNum2" />
+
+    <EditText
+        android:id="@+id/txtNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNum1"
+        android:layout_alignStart="@+id/txtNum1"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="62dp"
+        android:width="100dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvModo" />
+
+    <ImageButton
+        android:id="@+id/btnSuma"
+        android:layout_width="89dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/txtNum2"
+        android:layout_alignStart="@+id/txtNum2"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="36dp"
+        android:onClick="Suma"
+        android:src="@drawable/suma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNum1" />
+
+    <ImageButton
+        android:id="@+id/btnResta"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:layout_alignBottom="@+id/btnSuma"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="324dp"
+        android:layout_toEndOf="@+id/btnSuma"
+        android:onClick="Resta"
+        android:src="@drawable/resta"
+        app:layout_constraintStart_toEndOf="@+id/btnSuma"
+        app:layout_constraintTop_toBottomOf="@+id/button39" />
+
+    <ImageButton
+        android:id="@+id/btnMulti"
+        android:layout_width="102dp"
+        android:layout_height="68dp"
+        android:layout_alignTop="@+id/btnDivi"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="84dp"
+        android:layout_toStartOf="@+id/btnDivi"
+        android:onClick="Multi"
+        android:src="@drawable/producto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSuma" />
+
+    <ImageButton
+        android:id="@+id/btnDivi"
+        android:layout_width="98dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/btnResta"
+        android:layout_alignStart="@+id/btnResta"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="95dp"
+        android:onClick="Divi"
+        android:src="@drawable/division"
+        app:layout_constraintStart_toEndOf="@+id/btnMulti"
+        app:layout_constraintTop_toBottomOf="@+id/btnResta" />
+
+    <TextView
+        android:id="@+id/tvResul"
+        android:layout_width="72dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/txtNum1"
+        android:layout_alignEnd="@+id/btnDivi"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="24dp"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintBottom_toTopOf="@+id/btnResta"
+        app:layout_constraintStart_toEndOf="@+id/txtNum1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
